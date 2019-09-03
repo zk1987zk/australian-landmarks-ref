@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang=''>
+   <head>
+      <link rel="stylesheet" href="css/style.css"/>
+      <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+      <script src="js/script.js"></script>
+      <title>index</title>
+   </head>
+   <body>
+      <div class = 'logo'>
+         <a href='index.html'><img src = 'img/logo.jpg'></img></a>
+      </div>
+
+
+      <div id='navBar'>
+         <ul>
+            <li><a href='#'>About  &#x25BC |</a>
+               <ul>
+                  <li><a href='about.html'>About Me</li></a>
+                  <li><a href='contact.html'>Contact Me</a></li>
+               </ul>
+            </li>
+            
+            <li><a href='#'>Projects  &#x25BC |</a>
+               <ul>
+                  <li><a href='parta.html'>Part A</a></li>
+
+                  <li><a href='partb.html'>Part B</a></li>
+
+                  <li><a href='partc.html'>Part C</a></li>
+
+                  <li><a href='portfolio.html'>Portfolio</a></li>
+               </ul>
+            </li>
+            <li><a href='course.html'>Course Reflection</a></li>  
+         </ul>
+      </div>
+
+      <div id = 'introBox'>
+         <p id = "intro"><span id='quotationMark'>"Hi</span>, I'm Kan. Welcome to my portofolio. This contains all my designed process and reflection for my project.<span id='quotationMark'>"</span></p>
+      </div>
+      
+      <div id = 'iconsDiv'>
+         <div id = 'aboutIcon'>
+            <a href="about.html" onMouseOver="return changeImage()" onMouseOut= "return changeImageBack()" onMouseDown="return handleMDown()" onMouseUp="return handleMUp()">
+            <img name="aboutButton" src="img/about.jpg" alt="javascript button">
+            </a>
+         </div>
+         <div id = 'contactIcon'>
+            <a href="contact.html" onMouseOver="return changeImage3()" onMouseOut= "return changeImageBack3()" onMouseDown="return handleMDown3()" onMouseUp="return handleMUp3()">
+            <img name="contactButton" src="img/contact.jpg" alt="javascript button">
+            </a>
+
+         </div>
+         <div id = 'projectIcon'>
+            <a href="parta.html" onMouseOver="return changeImage2()" onMouseOut= "return changeImageBack2()" onMouseDown="return handleMDown2()" onMouseUp="return handleMUp2()">
+            <img name="projectButton" src="img/project.jpg" alt="javascript button">
+            </a>
+         </div>
+
+
+      </div>
+   
+      <div id='footerBar'>
+         <ul>
+            <li>KAN &copy 2014</li>
+         </ul>
+
+      </div>
+
+   </body>
+</html>
